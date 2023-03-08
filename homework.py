@@ -6,7 +6,7 @@ t = r.text
 vowels = "aeiou"
 letters = " abcdefghijklmnopqrstuvwxyz"
 
-tmp = [] # in this list we add the number of values of each line
+tmp = [] # in this list we add the number of vowels of each line
 n = 0 # n allows to count the number of vowels
 for l in t:
     if (l in vowels):
